@@ -1,0 +1,18 @@
+{
+  "name": "apna-makaan-chat-server",
+  "version": "1.0.0",
+  "description": "chat server for apna makaan",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Atanu Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.6.1"
+  }
+}
